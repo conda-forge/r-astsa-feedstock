@@ -1,4 +1,4 @@
-{% set version = "1.15" %}
+{% set version = "1.16" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/astsa_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/astsa/astsa_{{ version }}.tar.gz
-  sha256: 37abd3ccd96922728ba496a58b83d4f6ef908b29989ea3b78f7be2d601d69456
+  sha256: 7c3832105c06687098bc4636b909a35f4159906523bb962f67008585e7160725
 
 build:
   merge_build_host: true  # [win]
