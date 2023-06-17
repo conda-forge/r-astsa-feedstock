@@ -1,11 +1,11 @@
-About r-astsa
-=============
+About r-astsa-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-astsa-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/nickpoison/astsa/, https://www.stat.pitt.edu/stoffer/tsa4/, https://www.stat.pitt.edu/stoffer/tsda/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-astsa-feedstock/blob/main/LICENSE.txt)
 
 Summary: Data sets and scripts to accompany Time Series Analysis and Its Applications: With R Examples (4th ed), by R.H. Shumway and D.S. Stoffer. Springer Texts in Statistics, 2017, <DOI:10.1007/978-3-319-52452-8>, and Time Series:  A Data Analysis Approach Using R. Chapman-Hall, 2019, <ISBN: 978-0367221096>.
 
