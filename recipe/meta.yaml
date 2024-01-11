@@ -1,4 +1,4 @@
-{% set version = "2.0" %}
+{% set version = "2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/astsa_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/astsa/astsa_{{ version }}.tar.gz
-  sha256: 879feafe1574c595f7cb7031782206dd172c9ba44271671672a6ad55be756467
+  sha256: a38d9a8be97c18664cd4ac8d2a608f3c34f0e6eb7104a9b5fbd4ae5d3053cb66
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
