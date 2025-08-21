@@ -1,4 +1,4 @@
-{% set version = "2.2" %}
+{% set version = "2.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/astsa_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/astsa/astsa_{{ version }}.tar.gz
-  sha256: 9fe92cb642f0398404b17474bb4abf67d4f4db172b31b4089585fac8cb2549b7
+  sha256: 037706a4abd6ec35e83e920a2d7639e1618eab737b3ad03228a77982d0774ce8
 
 build:
   number: 0
